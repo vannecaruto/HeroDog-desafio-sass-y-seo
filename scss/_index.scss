@@ -1,0 +1,17 @@
+section{
+	div{
+		article{
+			h1{
+				@include texto($textXl, $gray1);
+			}
+		}
+	}
+}
+
+
+.nosotros{
+	font-size: $textMd;
+	color: $gray1;
+	font-weight: map-get($map:$grosor, $key:"bajo");
+
+}

@@ -1,0 +1,25 @@
+//imports
+
+@import "_vars";
+@import "_fonts";
+@import "_maps";
+@import "_extend";
+@import "_mixins";
+@import "_navBar";
+@import "_index";
+@import "_equipo";
+@import "_servicios";
+@import "_preguntas";
+@import "_contacto";
+@import "_footer";
+
+body{
+	overflow-x: hidden;
+	background-image: url(../img/fondo2.jpg);
+	opacity: 1.0;
+	background-attachment: fixed;
+}
+
+html{
+	font-size: 62.5%;
+}

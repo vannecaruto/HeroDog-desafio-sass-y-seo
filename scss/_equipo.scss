@@ -1,0 +1,22 @@
+
+section{
+	div{
+		h1{
+			@include texto($textXl, $gray1);
+		}
+		article{
+			h2{
+				@include texto($textLg, $gray1);
+			}
+			
+		}
+	}
+}
+
+
+.scale{
+	transition: transform 1.5s;
+	&:hover{
+		transform: scaleX(1.1);
+	}
+}

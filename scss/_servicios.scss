@@ -1,0 +1,41 @@
+
+
+.table-gray{
+		background-color: rgba(119, 136, 153, 0.2);
+		color: $gray2;
+		font-size: $textSm;
+		padding: 20px;
+		width: 90%;
+		margin: auto;
+		padding: 30px 10px;
+		border: $gray1;
+		}
+
+section{
+	article{
+		ul li{
+			list-style: none;
+			a{
+				color: $gray1;
+			    text-decoration: none;
+			    font-size: $textSm;
+			    background-image: linear-gradient(currentColor, currentColor);
+			    background-position: 0% 100%;
+			    background-repeat: no-repeat;
+			    background-size: 0% 2%;
+			    transition: background-size .3s;;
+			    &:hover{
+					color: $gray1;
+					font-weight: map-get($map:$grosor, $key:"alto");
+					background-size: 100% 2px;
+				}
+			}
+		}
+	}
+}
+
+section{
+	h1{
+		@include texto($textXl, $gray1);
+	}
+}
