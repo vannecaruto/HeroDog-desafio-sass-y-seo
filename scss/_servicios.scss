@@ -39,3 +39,9 @@ section{
 		@include texto($textXl, $gray1);
 	}
 }
+
+.rutas{
+	padding: 20px;
+	font-size: $textSm;
+	color: $gray1;
+}
