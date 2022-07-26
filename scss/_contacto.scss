@@ -1,9 +1,9 @@
 section{
 	h1{
-		@include texto($textXl, $gray1);
+		@include texto($mainFont, $textXl, $gray1);
 	}
 	.btn-color{
-		background-color: rgba(119, 136, 153, 0.6);
+		background-color: $tableColor;
 		color: #50627C;
 		font-size: 1.5rem;
 		padding: 20px;
@@ -23,7 +23,7 @@ section{
 
 section{
 	h2{
-		@include texto($textLg, $gray1);
+		@include texto($mainFont, $textLg, $gray1);
 
 	}
 	iframe{

@@ -2,7 +2,7 @@ section{
 	div{
 		article{
 			h1{
-				@include texto($textXl, $gray1);
+				@include texto($textXl, $gray1, $mainFont);
 			}
 		}
 	}

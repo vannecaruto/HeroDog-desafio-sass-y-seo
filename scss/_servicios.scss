@@ -1,18 +1,15 @@
 
 
-.table-gray{
-		background-color: rgba(119, 136, 153, 0.2);
-		color: $gray2;
-		font-size: $textSm;
-		padding: 20px;
-		width: 90%;
-		margin: auto;
-		padding: 30px 10px;
-		border: $gray1;
-		}
 
 section{
 	article{
+			p{
+				.rutas{
+					padding: 20px;
+					font-size: $textSm;
+					color: $gray1;
+				}
+			}
 		ul li{
 			list-style: none;
 			a{
@@ -33,15 +30,23 @@ section{
 		}
 	}
 }
-
-section{
-	h1{
-		@include texto($textXl, $gray1);
+main{
+	section{
+		div{
+			h1{
+			@include texto($mainFont, $textXl, $gray1);
+			}
+			.table{
+			background-color: $tableColor;
+			color: $gray2;
+			font-size: $textSm;
+			padding: 20px;
+			width: 90%;
+			margin: auto;
+			padding: 30px 10px;
+			border: $gray1;
+			}
+		}
 	}
 }
 
-.rutas{
-	padding: 20px;
-	font-size: $textSm;
-	color: $gray1;
-}

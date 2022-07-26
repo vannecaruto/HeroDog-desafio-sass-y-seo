@@ -1,4 +1,4 @@
-@mixin texto($size, $color){
+@mixin texto($mainFont, $size, $color){
 	font-family: $mainFont;
 	font-size: $size;
 	color: $color;

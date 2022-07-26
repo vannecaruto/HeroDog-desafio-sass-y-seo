@@ -2,15 +2,15 @@
 section{
 	div{
 		h1{
-			@include texto($textXl, $gray1);
+			@include texto($mainFont, $textXl, $gray1);
 		}
 		article{
 			h2{
-				@include texto($textLg, $gray1);
-			}
+				@include texto($mainFont, $textLg, $gray1);
+			}+
 			.box{
 				@extend .rutas;
-				background-color: rgba(119, 136, 153, 0.4);
+				background-color: $tableColor;
 				margin: 15px 30px;
 			}
 			
