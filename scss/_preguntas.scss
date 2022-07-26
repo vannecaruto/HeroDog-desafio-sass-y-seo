@@ -1,0 +1,13 @@
+main{
+	div{
+		h1{
+			@include texto($mainFont, $textXl, $gray1);
+		}
+		article{
+			h3{
+				@include texto($mainFont, $textMd, $gray1);
+				font-weight: map-get($map:$grosor, $key:"bajo");
+			}
+		}
+	}
+}

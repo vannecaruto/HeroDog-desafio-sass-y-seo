@@ -1,27 +1,28 @@
 
-section{
-	div{
-		h1{
-			@include texto($mainFont, $textXl, $gray1);
-		}
-		article{
-			h2{
-				@include texto($mainFont, $textLg, $gray1);
+main{
+	.py-3{
+		.container-fluid{
+			h1{
+				@include texto($mainFont, $textXl, $gray1);
 			}
-			.box{
-				@extend .rutas;
-				background-color: $tableColor;
-				margin: 15px 30px;
+			.row{
+				article{
+					.scale{
+						transition: transform 1.5s;
+						&:hover{
+							transform: scaleX(1.1);
+						}
+					}
+					h2{
+						@include texto($mainFont, $textLg, $gray1);
+					}
+					p{
+						font-weight: map-get($map:$grosor, $key:"bajo");
+					}
+				}
 			}
-			
 		}
 	}
 }
 
 
-.scale{
-	transition: transform 1.5s;
-	&:hover{
-		transform: scaleX(1.1);
-	}
-}

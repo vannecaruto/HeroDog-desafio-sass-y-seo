@@ -1,42 +1,9 @@
-
-
-
-section{
-	article{
-			p{
-				.rutas{
-					padding: 20px;
-					font-size: $textSm;
-					color: $gray1;
-				}
-			}
-		ul li{
-			list-style: none;
-			a{
-				color: $gray1;
-			    text-decoration: none;
-			    font-size: $textSm;
-			    background-image: linear-gradient(currentColor, currentColor);
-			    background-position: 0% 100%;
-			    background-repeat: no-repeat;
-			    background-size: 0% 2%;
-			    transition: background-size .3s;;
-			    &:hover{
-					color: $gray1;
-					font-weight: map-get($map:$grosor, $key:"alto");
-					background-size: 100% 2px;
-				}
-			}
-		}
-	}
-}
 main{
-	section{
-		div{
-			h1{
+	.py-5{
+		h1{
 			@include texto($mainFont, $textXl, $gray1);
-			}
-			.table{
+		}
+		.table{
 			background-color: $tableColor;
 			color: $gray2;
 			font-size: $textSm;
@@ -44,7 +11,46 @@ main{
 			width: 90%;
 			margin: auto;
 			padding: 30px 10px;
-			border: $gray1;
+			border: $gray1;			
+		}
+	}
+}
+
+
+main{
+	.py-5{
+		.container-fluid{
+			.row{
+				article{
+					img{
+					}
+				h2{
+
+				}
+					.rutas{
+						padding: 20px;
+						font-size: $textSm;
+						color: $gray1;					
+					}
+					ul li{
+						list-style: none;
+						a{
+							color: $gray1;
+						    text-decoration: none;
+						    font-size: $textSm;
+						    background-image: linear-gradient(currentColor, currentColor);
+						    background-position: 0% 100%;
+						    background-repeat: no-repeat;
+						    background-size: 0% 2%;
+						    transition: background-size .3s;;
+						    &:hover{
+								color: $gray1;
+								font-weight: map-get($map:$grosor, $key:"alto");
+								background-size: 100% 2px;
+							}
+						}
+					}
+				}
 			}
 		}
 	}

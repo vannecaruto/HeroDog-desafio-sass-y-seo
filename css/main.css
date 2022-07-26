@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap");
+.rutas, .box {
+  padding: 20px;
+  font-size: 1.5rem;
+  color: #4F5B67;
+  font-weight: 600; }
+
+.box {
+  background-color: rgba(119, 136, 153, 0.4);
+  margin: 15px 30px; }
+
 .nav {
   position: sticky;
   background-color: rgba(75, 75, 75, 0.75); }
@@ -19,62 +29,40 @@
         font-weight: 600;
         background-size: 100% 2px; }
 
-section div article h1 {
-  font-family: 2.7rem;
-  font-size: #4F5B67;
-  color: "Montserrat", sans-serif; }
+main .py-5 .container-fluid .row article h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.7rem;
+  color: #4F5B67; }
 
-.nosotros {
+main .py-5 .container-fluid .row article .nosotros {
   font-size: 2.2rem;
   color: #4F5B67;
   font-weight: 400; }
 
-section div h1 {
+main .py-3 .container-fluid h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.7rem;
   color: #4F5B67; }
 
-section div article h2 {
+main .py-3 .container-fluid .row article .scale {
+  transition: transform 1.5s; }
+  main .py-3 .container-fluid .row article .scale:hover {
+    transform: scaleX(1.1); }
+
+main .py-3 .container-fluid .row article h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   color: #4F5B67; }
 
-section div article .box {
-  background-color: rgba(119, 136, 153, 0.2);
-  margin: 15px 30px; }
+main .py-3 .container-fluid .row article p {
+  font-weight: 400; }
 
-.scale {
-  transition: transform 1.5s; }
-  .scale:hover {
-    transform: scaleX(1.1); }
-
-section article p .rutas, section div article p .box {
-  padding: 20px;
-  font-size: 1.5rem;
-  color: #4F5B67; }
-
-section article ul li {
-  list-style: none; }
-  section article ul li a {
-    color: #4F5B67;
-    text-decoration: none;
-    font-size: 1.5rem;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2%;
-    transition: background-size .3s; }
-    section article ul li a:hover {
-      color: #4F5B67;
-      font-weight: 600;
-      background-size: 100% 2px; }
-
-main section div h1 {
+main .py-5 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.7rem;
   color: #4F5B67; }
 
-main section div .table {
+main .py-5 .table {
   background-color: rgba(119, 136, 153, 0.2);
   color: #50627C;
   font-size: 1.5rem;
@@ -84,12 +72,44 @@ main section div .table {
   padding: 30px 10px;
   border: #4F5B67; }
 
-section h1 {
+main .py-5 .container-fluid .row article .rutas, main .py-5 .container-fluid .row article .box {
+  padding: 20px;
+  font-size: 1.5rem;
+  color: #4F5B67; }
+
+main .py-5 .container-fluid .row article ul li {
+  list-style: none; }
+  main .py-5 .container-fluid .row article ul li a {
+    color: #4F5B67;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2%;
+    transition: background-size .3s; }
+    main .py-5 .container-fluid .row article ul li a:hover {
+      color: #4F5B67;
+      font-weight: 600;
+      background-size: 100% 2px; }
+
+main div h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.7rem;
   color: #4F5B67; }
 
-section .btn-color {
+main div article h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.2rem;
+  color: #4F5B67;
+  font-weight: 400; }
+
+main h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.7rem;
+  color: #4F5B67; }
+
+main .btn-color {
   background-color: rgba(119, 136, 153, 0.2);
   color: #50627C;
   font-size: 1.5rem;
@@ -97,18 +117,18 @@ section .btn-color {
   width: 90%;
   margin: auto;
   padding: 30px 10px; }
-  section .btn-color .button {
+  main .btn-color .button {
     color: whitesmoke;
     background-color: #4b4b4b;
     font-size: 1.5rem;
     font-weight: 400; }
 
-section h2 {
+main .row h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   color: #4F5B67; }
 
-section iframe .maps {
+main .row iframe .maps {
   padding: 20px;
   width: 80%;
   margin: auto;

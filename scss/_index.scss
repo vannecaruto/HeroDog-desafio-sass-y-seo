@@ -1,17 +1,20 @@
-section{
-	div{
-		article{
-			h1{
-				@include texto($textXl, $gray1, $mainFont);
+main{
+	.py-5{
+		.container-fluid{
+			.row{
+				article{
+					h1{
+					@include texto($mainFont, $textXl, $gray1);
+					}
+					.nosotros{
+						font-size: $textMd;
+						color: $gray1;
+						font-weight: map-get($map:$grosor, $key:"bajo");
+					}
+					img{
+					}
+				}
 			}
 		}
 	}
-}
-
-
-.nosotros{
-	font-size: $textMd;
-	color: $gray1;
-	font-weight: map-get($map:$grosor, $key:"bajo");
-
 }

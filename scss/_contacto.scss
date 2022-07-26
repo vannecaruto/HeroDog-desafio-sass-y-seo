@@ -1,10 +1,10 @@
-section{
+main{
 	h1{
 		@include texto($mainFont, $textXl, $gray1);
 	}
 	.btn-color{
 		background-color: $tableColor;
-		color: #50627C;
+		color: $gray2;
 		font-size: 1.5rem;
 		padding: 20px;
 		width: 90%;
@@ -17,23 +17,22 @@ section{
 			font-weight: map-get($map:$grosor, $key:"bajo");
 		}
 	}
-
 }
 
 
-section{
-	h2{
-		@include texto($mainFont, $textLg, $gray1);
-
-	}
-	iframe{
-		.maps{
+main{
+	.row{
+		h2{
+			@include texto($mainFont, $textLg, $gray1);
+		}
+		iframe{
+			.maps{
 			padding: 20px;
 			width: 80%;
 			margin: auto;
 			padding: 30px 10px;
+			}
 		}
 	}
 }
-
 

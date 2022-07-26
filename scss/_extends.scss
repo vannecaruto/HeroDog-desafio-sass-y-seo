@@ -1,0 +1,13 @@
+.rutas{
+	padding: 20px;
+	font-size: $textSm;
+	color: $gray1;
+	font-weight: map-get($map:$grosor, $key:"alto");
+}
+
+
+.box{
+	@extend .rutas;
+	background-color: rgba(119, 136, 153, 0.4);
+	margin: 15px 30px;
+} 
