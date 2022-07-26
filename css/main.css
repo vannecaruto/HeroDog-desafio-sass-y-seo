@@ -39,7 +39,7 @@ section div article h2 {
   font-size: 2.5rem;
   color: #4F5B67; }
 
-section div article + .box {
+section div article .box {
   background-color: rgba(119, 136, 153, 0.2);
   margin: 15px 30px; }
 
@@ -48,7 +48,7 @@ section div article + .box {
   .scale:hover {
     transform: scaleX(1.1); }
 
-section article p .rutas, section article p div article + .box, section div article p article + .box {
+section article p .rutas, section div article p .box {
   padding: 20px;
   font-size: 1.5rem;
   color: #4F5B67; }

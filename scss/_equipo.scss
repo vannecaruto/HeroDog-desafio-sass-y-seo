@@ -7,7 +7,7 @@ section{
 		article{
 			h2{
 				@include texto($mainFont, $textLg, $gray1);
-			}+
+			}
 			.box{
 				@extend .rutas;
 				background-color: $tableColor;
