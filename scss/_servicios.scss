@@ -28,9 +28,7 @@ main{
 
 				}
 					.rutas{
-						padding: 20px;
-						font-size: $textSm;
-						color: $gray1;					
+						@extend %rutas; 					
 					}
 					ul li{
 						list-style: none;

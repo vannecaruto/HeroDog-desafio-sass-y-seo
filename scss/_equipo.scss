@@ -16,9 +16,7 @@ main{
 					h2{
 						@include texto($mainFont, $textLg, $gray1);
 					}
-					p{
-						font-weight: map-get($map:$grosor, $key:"bajo");
-					}
+
 				}
 			}
 		}

@@ -7,11 +7,14 @@ main{
 					@include texto($mainFont, $textXl, $gray1);
 					}
 					.nosotros{
+						margin: auto;
 						font-size: $textMd;
 						color: $gray1;
 						font-weight: map-get($map:$grosor, $key:"bajo");
 					}
 					img{
+						width: 40vw;
+						margin: auto;
 					}
 				}
 			}
